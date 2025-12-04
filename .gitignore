@@ -1,0 +1,70 @@
+###############################
+# macOS
+###############################
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+
+
+###############################
+# Xcode – User Data (never commit)
+###############################
+*.xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+
+###############################
+# Xcode – Workspace / Project Settings
+###############################
+# Keep shared settings, ignore user ones
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+
+###############################
+# Build Products
+###############################
+DerivedData/
+build/
+*.swp
+*.log
+
+
+###############################
+# Bundled tools (your local utilities like cwebp)
+###############################
+Tools/
+
+
+###############################
+# Swift Package Manager
+###############################
+.swiftpm/
+.build/
+
+
+###############################
+# CocoaPods (if added later)
+###############################
+Pods/
+Podfile.lock
+
+
+###############################
+# Carthage (if added later)
+###############################
+Carthage/Build/
+
+
+###############################
+# Fastlane
+###############################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
